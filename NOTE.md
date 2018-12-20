@@ -34,7 +34,7 @@ AWS environment: `ami-06f4d4afd350f6e4c`. Follow https://cloud-gc.readthedocs.io
 
 Save advected species at daily frequency. In HISTORY.rc, set:
 
-  SpeciesConc.frequency:      00000001 000000
-  SpeciesConc.duration:       00000001 000000
-  SpeciesConc.mode:           'time-averaged'
-  SpeciesConc.fields:         'SpeciesConc_?ADV?             ', 'GIGCchem',
+    SpeciesConc.frequency:      00000001 000000
+    SpeciesConc.duration:       00000001 000000
+    SpeciesConc.mode:           'time-averaged'
+    SpeciesConc.fields:         'SpeciesConc_?ADV?             ', 'GIGCchem',
